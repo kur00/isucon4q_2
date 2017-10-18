@@ -4,6 +4,8 @@ require 'mysql2-cs-bind'
 require 'rack-flash'
 require 'json'
 
+#daisuke
+
 module Isucon4
   class App < Sinatra::Base
     use Rack::Session::Cookie, secret: ENV['ISU4_SESSION_SECRET'] || 'shirokane'
